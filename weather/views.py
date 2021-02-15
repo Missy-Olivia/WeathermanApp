@@ -1,6 +1,9 @@
 import urllib.request
 import json
 from django.shortcuts import render
+import sys  
+
+sys.setrecursionlimit(10**6)
 
 # Create your views here.
 def index (request):
